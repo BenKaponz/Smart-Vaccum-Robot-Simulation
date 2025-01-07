@@ -128,9 +128,8 @@ public class GurionRockRunner {
         fusionThread.start();
 
         try {
-            Thread.sleep(1000); //sleep to give time for all the micro-service to subscribe for tick
-        } catch (Exception e) {
-        }
+            Thread.sleep(1); //sleep to give time for all the microservice to subscribe for tick
+        } catch (Exception e) {}
 
         timeThread.start();
 

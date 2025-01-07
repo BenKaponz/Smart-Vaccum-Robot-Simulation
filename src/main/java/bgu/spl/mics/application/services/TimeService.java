@@ -43,7 +43,6 @@ public class TimeService extends MicroService {
         try {
           Thread.sleep(tickTime );
         } catch (InterruptedException e) {
-          Thread.currentThread().interrupt();
         }
         currentTick++;
         if (currentTick > duration + 1) {
@@ -73,6 +72,10 @@ public class TimeService extends MicroService {
     });
 
     // Manually sending first tickBraodcast
+    try {
+      Thread.sleep(tickTime);
+    } catch (InterruptedException e) {
+    }
     sendBroadcast(new TickBroadcast(currentTick));
 
   }
