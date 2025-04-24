@@ -1,7 +1,7 @@
 # 🤖 GurionRock Pro Max Ultra Over 9000  
 **Concurrent Perception & Mapping System – SPL225 @ BGU**
 
-A modular simulation of an autonomous vacuum robot’s perception and mapping system, developed as part of the **Systems Programming Lab** at Ben-Gurion University.  
+A modular simulation of an autonomous vacuum robot’s perception and mapping system, developed as part of the **Systems Programming Course** at Ben-Gurion University.  
 The system models real-time sensor fusion using **multithreaded Java Microservices** and a custom **MessageBus framework**.
 
 ---
