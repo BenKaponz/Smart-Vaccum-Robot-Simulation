@@ -61,9 +61,14 @@ The system models real-time sensor fusion using **multithreaded Java Microservic
 mvn clean install
 ```
 
-### 2. Execute
+### 2. Run Tests
 ```bash
-java -jar target/BGRock.jar path/to/config.json
+mvn test
+```
+
+### 3. Run Application
+```bash
+mvn exec:java -Dexec.mainClass=bgu.spl.mics.application.GurionRockRunner -Dexec.args="/path/to/configuration_file.json"
 ```
 
 ### 3. Output
@@ -73,6 +78,7 @@ java -jar target/BGRock.jar path/to/config.json
   - Crash report (if applicable)
 
 ---
+
 
 ## 🧪 Testing
 ```bash
@@ -84,7 +90,6 @@ Includes unit tests for:
 - `CameraService` / `LiDarService` behavior
 
 ---
-
 ## 📁 Directory Structure
 ```
 src/
