@@ -58,7 +58,7 @@ The system models real-time sensor fusion using **multithreaded Java Microservic
 
 ### 1. Build
 ```bash
-mvn clean install
+mvn clean compile
 ```
 
 ### 2. Run Tests
@@ -67,6 +67,7 @@ mvn test
 ```
 
 ### 3. Run Application
+To run the simulation, provide the path to a valid configuration JSON file as an argument:
 ```bash
 mvn exec:java -Dexec.mainClass=bgu.spl.mics.application.GurionRockRunner -Dexec.args="/path/to/configuration_file.json"
 ```
