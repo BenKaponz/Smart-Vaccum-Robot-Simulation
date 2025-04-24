@@ -120,11 +120,11 @@ src/
 
 **Ben Kapon**  
 Student at BGU  
-[LinkedIn](https://www.linkedin.com/in/your-ben-kapon-link)
+[LinkedIn](www.linkedin.com/in/ben-kapon-523882331)
 
 **Itay Shaul**  
 Student at BGU  
-[LinkedIn](https://www.linkedin.com/in/your-itay-shaul-link)
+[LinkedIn](https://www.linkedin.com/in/itay-shaul/)
 
 ---
 
