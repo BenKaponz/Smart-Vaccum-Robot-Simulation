@@ -106,7 +106,6 @@ src/
 - **Institution:** Ben-Gurion University of the Negev  
 - **Year:** 2025  
 - **Project Grade:** 90  
-- **Submission Format:** Maven project with JUnit tests and structured JSON I/O  
 - **Environment:** Linux CS Lab, Docker-compatible  
 
 ---
