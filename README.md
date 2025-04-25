@@ -111,7 +111,6 @@ src/
 - **Course:** SPL225 – Systems Programming Lab  
 - **Institution:** Ben-Gurion University of the Negev  
 - **Year:** 2025  
-- **Project Grade:** 90  
 - **Environment:** Linux CS Lab, Docker-compatible  
 
 ---
